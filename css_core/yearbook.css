@@ -1,0 +1,91 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  background: -webkit-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%); /* W3C */
+        
+  }
+
+.bk-header
+{
+	background-color:#494949;
+	position:absolute;top:0;left:0;width:100%;
+	padding:5px;color:white;
+}
+
+.page-height
+{
+	height:auto ;
+	min-height:550px;
+
+
+}
+.img-grey
+{
+	border: 2px solid #7d7d7d;
+    object-fit: cover;
+}
+
+/* fonts */
+.ft_size-5
+{
+	font-size: 80%;
+}
+.ft_size_7
+{
+	font-size: 90%;
+}
+.ft_size_3
+{
+	font-size:70%;
+}
+.weight-100
+{
+	font-weight:100;
+}
+.grey
+{
+	color:#999ba2;
+}
+
+/* floats and positions */
+.flt_rght
+{
+	float:right !important;
+}
+
+.flt_lft
+{
+	float:left !important;
+}
+.flt_none
+{
+	float: none !important;
+}
+
+.relative
+{
+	position: relative !important;
+}
+
+/*margins */
+.mg-l-10
+{
+	margin-left:10px;
+}
+.mg-l-20
+{
+	margin-left:20px;
+}
+
+/*paddings */
+.pd-a-10
+{
+	padding:10px;
+}
+
